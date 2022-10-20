@@ -1,11 +1,11 @@
-// :root {
-//   --color-primary: #005102;
-//   --color-secondary: #ffb410;
-//   --button-padding: 13px 25px;
-//   --all-font: "Mohave", sans-serif;
-//   --font-size-small: 20px;
-//   --font-weight: 600;
-// }
+:root {
+  --color-primary: #005102;
+  --color-secondary: #ffb410;
+  --button-padding: 13px 25px;
+  --all-font: "Mohave", sans-serif;
+  --font-size-small: 20px;
+  --font-weight: 600;
+}
 
 // button {
 //   padding: var(--button-padding);
@@ -21,3 +21,60 @@
 .cont-1 {
   background-color: var(--color-primary);
 }
+
+.sec-1 {
+  background-image: url("../Images/hero-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 189px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-1-inner {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.event-name {
+  font-family: var(--all-font);
+  font-weight: var(--font-weight);
+  font-size: 150px;
+  color: #ffffff;
+}
+.span-a {
+  color: var(--color-secondary);
+}
+
+.span-b {
+  color: var(--color-primary);
+}
+
+.main-changes {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.buy-changes {
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.sec-2 {
+  background-image: url("../Images/pattern-one.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 189px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-2-inner {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+

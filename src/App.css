@@ -50,6 +50,8 @@
   font-weight: var(--font-weight);
   font-size: 30px;
   color: var(--color-secondary);
+  padding: 0;
+  margin: 0;
 }
 
 .h3-green {
@@ -65,4 +67,12 @@
   font-size: var(--font-size-small);
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.mgt-6 {
+  margin-top: 60px;
+}
+
+.mgt-1 {
+  margin-top: 10px;
 }
