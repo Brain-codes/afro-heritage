@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+.App {
+  scroll-behavior: smooth;
+}
+
 .button-one {
   padding: var(--button-padding);
   font-family: var(--all-font);
@@ -69,10 +73,21 @@
   text-transform: uppercase;
 }
 
+.ts-green {
+  font-family: var(--all-font);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-small);
+  color: var(--color-primary);
+}
+
 .mgt-6 {
   margin-top: 60px;
 }
 
 .mgt-1 {
   margin-top: 10px;
+}
+
+.mgb-2 {
+  margin-bottom: 20px;
 }
