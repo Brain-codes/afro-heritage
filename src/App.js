@@ -4,6 +4,8 @@ import Home from "./components/Home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Checkout from "./components/Checkout/Checkout";
+import "antd/dist/antd.css";
+import Qr from "./components/QR/Qr";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/n" exact element={<Navbar />} />
+          <Route path="/qr" exact element={<Qr />} />
           <Route path="/checkout" exact element={<Checkout />} />
         </Routes>
       </Router>

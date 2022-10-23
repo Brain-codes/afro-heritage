@@ -1,0 +1,99 @@
+.head-check {
+  font-family: "Mohave";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.check-cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-check {
+  width: 50%;
+  background-color: var(--color-primary);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+
+  img {
+    width: 70%;
+  }
+}
+
+.right-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 4%;
+  width: 50%;
+  padding-bottom: 60px;
+}
+
+.check-form {
+  width: 100%;
+  margin-top: 40px;
+
+  input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: var(--font-size-small);
+    background-color: var(--color-primary);
+    color: white;
+    font-family: var(--all-font);
+    font-weight: 400;
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+  button {
+    color: white;
+    padding: 8px 25px;
+    cursor: pointer;
+  }
+}
+
+.load-btn {
+  width: fit-content;
+}
+
+@media (max-width: 782px) {
+  .check-cont {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-check {
+    position: relative;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .right-cont {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .head-check {
+    font-size: 30px;
+  }
+
+  .check-form {
+    input {
+      font-size: var(--font-size-mq);
+    }
+  }
+}

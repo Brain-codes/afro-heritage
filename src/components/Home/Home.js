@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.scss";
 import arrow from "../Images/arrow.svg";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="sec-2" id="About">
+      <div className="sec-2" id="About-Event">
         <div className="sec-2-inner">
           <h2 className="h2-yellow ">ABOUT THE EVENT</h2>
           <p className="ts mgt-6">
@@ -60,9 +61,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="sec-3">
+      <div className="sec-3" id="Ticket">
         <div className="sec-3-inner">
-          <h2 className="h2-green ">ABOUT THE EVENT</h2>
+          <h2 className="h2-green ">TICKET BREAKDOWN</h2>
 
           <div className="reg-cont mgt-6">
             <div className="reg-top-cont mgb-2">
@@ -117,8 +118,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="sec-4">
-        <h2 className="h2-green ">SPONSORSHIP / CONTACT</h2>
+      <div className="sec-4" id="Sponsorship">
+        <h2 className="h2-green " id="Contact">
+          SPONSORSHIP / CONTACT
+        </h2>
 
         <div className="reg-cont mgt-6">
           <div className="ts-green">
@@ -144,14 +147,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="foot-efe">
-        <p>
-          Developed by Efe{" "}
-          <a href="https://braincodes.netlify.app" target="_blank">
-            @Brain Codes
-          </a>
-        </p>
-      </div>
+      <Footer />
     </div>
   );
 };

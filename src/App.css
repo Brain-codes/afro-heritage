@@ -5,6 +5,9 @@
   --all-font: "Mohave", sans-serif;
   --font-size-small: 20px;
   --font-weight: 600;
+
+  --font-size-medium: 40px;
+  --font-size-mq: 15px;
 }
 
 * {
@@ -63,6 +66,7 @@
   font-weight: var(--font-weight);
   font-size: 30px;
   color: var(--color-primary);
+  margin-bottom: 0px;
 }
 
 .ts-up {
@@ -71,6 +75,7 @@
   font-size: var(--font-size-small);
   color: #ffffff;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 .ts-green {
@@ -90,4 +95,47 @@
 
 .mgb-2 {
   margin-bottom: 20px;
+}
+
+.p-thin {
+  font-family: var(--all-font);
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  color: #000000;
+}
+
+@media (max-width: 420px) {
+  .p-thin {
+    font-size: var(--font-size-mq);
+  }
+}
+
+@media (max-width: 519px) {
+  .h2-green,
+  .h2-yellow {
+    font-size: var(--font-size-medium);
+  }
+
+  .ts,
+  .ts-up,
+  .ts-green,
+  .h3-green {
+    font-size: var(--font-size-mq);
+  }
+
+  .h3-yellow {
+    font-size: 25px;
+  }
+
+  .mgt-6 {
+    margin-top: 30px;
+  }
+
+  .mgt-1 {
+    margin-top: 0px;
+  }
+
+  .button-one {
+    font-size: var(--font-size-mq);
+  }
 }
